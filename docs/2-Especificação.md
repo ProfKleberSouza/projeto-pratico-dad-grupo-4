@@ -106,12 +106,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|02| Membros da equipe só devem atuar no projeto aos sábados, domingos, segundas-feiras e terças-feiras |
+|03| O projeto é composto de cinco integrantes que dividirão as atividades de desenvolvimento |
+|04| Nem todos os membros da equipe de desenvolvimento conhecem todas as tecnologias utilizadas no projeto |
