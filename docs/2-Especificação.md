@@ -1,7 +1,5 @@
 # Especificações Do Projeto
 
-
-
 ## Personas
 |Id        | Persona                                                            |
 |----------|--------------------------------------------------------------------|
@@ -11,40 +9,28 @@
 | ***4***  |Lara, 16 anos: cursando o 3º ano do ensino médio e sofre de ataque de pânico por traumas vivenciados na infância. É uma adolecente com boa convivência na escola, esforçada e se apoia muito em suas amigas. É um caso na qual necessita de atenção dos psicólogos 
 
 
-> Enumere e detalhe as personas da sua solução. Para
-> tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-> Lembre-se que você deve ser enumerar e descrever precisamente e
-> personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
-
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+|Usuário     |Quero me autenticar no sistema, as funções ficam disponíveis após a autenticação por login e senha                 | Acessar as funcionalidades do sistema |
+|Usuário       |Quero poder alterar minha senha do sistema, através de confirmação de e-mail. A senha deve conter uma sequência de caracteres entre letras (maíuscula e minúscula), números e caracteres especiais                | Ter controle das minhas credencias no sistema|
+|Psicólogo(a) |Modificar meus dados, com exceção do nome e CRP | Ter controle sobre os meus dados|
+|Psicólogo(a) |Visualizar uma lista de horários marcados e em aberto | Manter controle sobre minha agenda|
+|Psicólogo(a) |Visualizar os dados do paciente que irei atender e o histórico dos atendimentos dele | Visualizar o laudo dos atendimentos anteriores dos pacientes| 
+|Psicólogo(a) |Me cadastrar no sistema, cadastrando o nome, telefone, email, CRP, formação ou previsão de formatura, endereço, horários disponíveis de atendimento, interesse, por onde conheceu o trabalho da ASTLA, sugestão de comentário |Obter acesso ao sistema e participar dos serviços que a ONG oferece |
+|Psicólogo(a) |Visualizar o status da minha conta. Caso seja aprovado: tenho acesso as funcionalidades do sistema. Caso seja reprovado: eu consigo visualizar as informações de contato para regularização |Obter um feedback do status do meu cadastro no sistema |
+|Secretário(a)|Alterar o status das contas dos membros da comunidade. Os status são definidos como: -aprovado, -reprovado ou -pendente. |Gerenciar as contas dos membros da comunidade cadastrados|
+|Secretário(a)|Visualizar relatório de dados da quantidade de horários vagos no mês ou na semana. Também podendo visualizar a quantidade de registros -pendentes, -reprovados e -aprovados de psicólogos(as) e dos membros da comunidade |Obter controle da situação a partir dos dados |
+|Secretário(a)|Visualizo uma lista dos membros da comunidade contendo: nome, e-mail, status e CPF, podendo filtrá-los pelo nome, status ou por CPF. Caso necessite alterar o status ou visualizar outros dados, posso acessar uma tela separada com todas as informações | Visualizar as contas dos membros da comunidade cadastrados|
+|Secretário(a)|Alterar o status das contas de psicólogos(as). Os status são definidos como: -aprovado, -reprovado ou -pendente. |Gerenciar as contas de psicólogos(as) cadastrados.
+|Secretário(a)|Visualizo uma lista dos psicólogos(as) contendo: nome, e-mail, status e CPF, podendo filtrá-los pelo nome, status ou por CPF. Caso necessite alterar o status ou visualizar outros dados, posso acessar uma tela separada com todas as informações | Visualizar as contas dos membros da comunidade cadastrados|
+|Secretário(a) |Alocar paciente a um horário de um(a) psicólogos(as), para isso posso visualizar o calendário e a quantidade de profissionais disponíveis para aquele dia         |Permitir criar agendamentos de consultas e assim preencher os horários disponíveis dos psicólogos(as) para atendimento dos pacientes |
+|Membro da Comunidade|Me cadastrar no sistema da ONG, informando meus dados. Caso tenha uma limitação de horários| Obter acesso ao sistema e poder receber atendimento psicológico |
+|Membro da Comunidade|Posso visualizar o status da minha conta. Caso seja aprovado: tenho acesso as funcionalidades do sistema. Caso seja reprovado: eu consigo visualizar as informações de contato|Obter o feedback do status da minha conta |
+|Membro da Comunidade|Visualizar minha lista de horários marcados no sistema|Controlar minha agenda e visualizar minhas consultas marcadas|
+|Administrador |Criar, editar e remover contas de psicologos(as). Visualizo uma lista de contas cadastradas contendo nome, e-mail, status e CRP, podendo filtrá-las pelo nome, status ou CRP.         | Permitir o controle sobre as contas dos secretários(as)|
+|Administrador|Criar, editar e remover contas de secretários(as). Visualizo uma lista de contas cadastradas contendo nome, e-mail, status e CPF, podendo filtrá-las pelo nome, status ou CPF.         | Permitir o controle sobre as contas dos secretários(as)|
 
 ## Requisitos
 
