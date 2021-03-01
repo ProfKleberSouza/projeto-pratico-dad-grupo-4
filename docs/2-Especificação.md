@@ -58,16 +58,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário se cadastre no sistema (seja ele membro da comunidade, psicólogo ou membro da secretaria) | ALTA | 
+|RF-002| Permitir que o usuário entre no sistema | ALTA | 
+|RF-003| Permitir que o usuário atualize os dados que foram preenchidos no cadastro | BAIXA | 
+|RF-004| Permitir que o membro da comunidade solicite um atendimento psicológico (preenchendo os dados necessários) | ALTA | 
+|RF-005| Permitir que o membro da comunidade desejo participar da chamada pra a consulta agendada | ALTA | 
+|RF-006| Permitir que o membro da comunidade desejo receber notificações antes de uma consulta relembrando sobre a data e horário | MÉDIA | 
+|RF-007| Permitir que o profissional de psicologia faça o cadastro da sua ficha de informações para atuar no psicólogo  | ALTA |
+|RF-008| Permitir que o profissional de psicologia confira os atendimentos agendados | ALTA | 
+|RF-009| Permitir que o profissional de psicologia receba lembretes sobre os atendimentos | MÉDIA | 
+|RF-010| Permitir que o funcionário da secretaria associe pacientes aos psicólogos disponíveis | ALTA | 
+|RF-011| Permitir que o usuário administrador ative e desative os demais usuários do sistema | BAIXA | 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móveis | ALTA | 
+|RNF-002| O sistema deve notificar os pacientes/psicólogos sobre as consultas em até 15 minutos antes do horário agendado | MÉDIA | 
+|RNF-003| O sistema deve possuir uma versão mobile criada com Flutter | ALTA | 
+|RNF-004| O sistema deve ser desenvolvido utilizando a biblioteca React para o módulo frontend | MÉDIA | 
+|RNF-005| O sistema deve ter uma API REST para processar as requisições do frontend e dos apps mobile | MÉDIA |
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
