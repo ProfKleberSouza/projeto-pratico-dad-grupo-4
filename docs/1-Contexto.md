@@ -14,4 +14,4 @@ O desenvolvimento desse sistema irá permitir a gestão de forma mais eficiente 
 ## Público-Alvo
 
 Com o passar do tempo, as instituições de terceiro setor vêm se tornando cada vez mais relevantes e mais importantes no auxílio àqueles que possuem pouco acesso a tratamentos de qualidade de vida, grupos marginalizados pela sociedade, tendo muito pouca atenção das iniciativas públicas e políticas ao redor do país. Essas pessoas são o foco principal para a utilização desse projeto, um grupo que não tem muito acesso a informação e procura ajuda, dessa forma é possível ter um melhor controle dos pacientes assim como gerenciar cada ocorrência e cada pessoa de forma individual.
-	>O programa também busca auxiliar as comunidades mais carentes de muitas maneiras possíveis, seja através do esporte ou de atividades suplementares, com a visão de escalar cada vez mais e ajudar o maior número de pessoas e grupos sociais.
+	O programa também busca auxiliar as comunidades mais carentes de muitas maneiras possíveis, seja através do esporte ou de atividades suplementares, com a visão de escalar cada vez mais e ajudar o maior número de pessoas e grupos sociais.
