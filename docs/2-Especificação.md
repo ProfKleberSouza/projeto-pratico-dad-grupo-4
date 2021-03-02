@@ -44,8 +44,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Permitir que o usuário entre no sistema | ALTA | 
 |RF-003| Permitir que o usuário atualize os dados que foram preenchidos no cadastro | BAIXA | 
 |RF-004| Permitir que o membro da comunidade solicite um atendimento psicológico (preenchendo os dados necessários) | ALTA | 
-|RF-005| Permitir que o membro da comunidade desejo participar da chamada pra a consulta agendada | ALTA | 
-|RF-006| Permitir que o membro da comunidade desejo receber notificações antes de uma consulta relembrando sobre a data e horário | MÉDIA | 
+|RF-005| Permitir que o membro da comunidade participe da chamada pra a consulta agendada | ALTA | 
+|RF-006| Permitir que o membro da comunidade receba notificações antes de uma consulta relembrando sobre a data e horário | MÉDIA | 
 |RF-007| Permitir que o profissional de psicologia faça o cadastro da sua ficha de informações para atuar no psicólogo  | ALTA |
 |RF-008| Permitir que o profissional de psicologia confira os atendimentos agendados | ALTA | 
 |RF-009| Permitir que o profissional de psicologia receba lembretes sobre os atendimentos | MÉDIA | 
@@ -62,24 +62,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| O sistema deve possuir uma versão mobile criada com Flutter | ALTA | 
 |RNF-004| O sistema deve ser desenvolvido utilizando a biblioteca React para o módulo frontend | MÉDIA | 
 |RNF-005| O sistema deve ter uma API REST para processar as requisições do frontend e dos apps mobile | MÉDIA |
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais
->   (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais
->   (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
